@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manejos de Errores</title>
+  <link rel="stylesheet" href="layout/css/master.css">
+
+  <script src="https://kit.fontawesome.com/a3bcf817ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="img-bankground">
+    <div class="header">
+      <div class="contenedor header__flex">
+
+
+        <h1 class="header__title">
+            <span>Art</span>Marli
+        </h1>
+
+
+          <input type="checkbox" class="bars__input" id="check">
+          <label for="check" class="bars__icono"><i class="fas fa-bars"></i></label>
+
+
+
+
+        <nav class="nav nav--mobile">
+          <ul class="nav__ul nav_ul--mobile">
+            <li class="nav__li nav__li--mobile"><a href="#" class="nav__link nav__link--mobile">Home</a></li>
+            <li class="nav__li nav__li--mobile"><a href="#" class="nav__link nav__link--mobile">Galleria</a></li>
+            <li class="nav__li nav__li--mobile"><a href="#" class="nav__link nav__link--mobile">Sobre Nosotros</a></li>
+            <li class="nav__li nav__li--mobile"><a href="#" class="nav__link nav__link--mobile">Contactos</a></li>
+          </ul><!--nav__ul-->
+        </nav><!--nav-->
+
+      </div><!--contenedor header__flex-->
+    </div><!--header-->
+  </header><!--img-bankground-->
+  <!---->
+  <main>
+    <div class="contenedor">
+      <form class="formulario__content" action="index.html" method="post">
+          <h2 class="formulario__title">Introduce Las Notas El Alumnos</h2>
+          <input type="number"
+            id="nota-alumno"
+            class="formulario__input"
+            placeholder="Notas del Alumno"
+            min="0"
+            max="10">
+          <input type="button" class="formulario__btn" id="enviar-nota" value="Enviar Nota">
+
+
+      </form>
+    </div>
+  </main>
+
+  <section class="modal">
+    <div class="flex--center">
+      <div class="modal__ventana">
+        <h3 class="modal__title" id="resultado">eres arrechisimo puto</h3>
+        <p class="modal__p" id="mesage">no pasaster por mendejo</p>
+        <button id="btnModel" class="modal__btn">Listo!</button>
+      </div><!--modal__ventana-->
+    </div><!--flex-center-->
+  </section><!--modal-->
+
+  <script src="layout/js/main.js"></script>
+</body>
+</html>
